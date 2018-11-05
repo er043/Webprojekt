@@ -10,6 +10,8 @@
 <body>
 <h1>Test</h1>
 <br>
+<!--test124-->
+<!--test123-->
 <!--test123-->
 <?php
 $servername = "mysql:dbhost=localhost;dbname=webprojekt";

@@ -11,6 +11,8 @@
 <h1>Test</h1>
 <br>
 <!--test123-->
+<!--test123-->
+<!--test124-->
 <?php
 $servername = "mysql:dbhost=localhost;dbname=webprojekt";
 $username = "root";

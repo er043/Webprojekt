@@ -13,6 +13,8 @@
 <!--test124-->
 <!--test123-->
 <!--test123-->
+<!--test123-->
+<!--test124-->
 <?php
 $servername = "mysql:dbhost=localhost;dbname=webprojekt";
 $username = "root";

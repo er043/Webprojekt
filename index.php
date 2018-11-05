@@ -10,7 +10,7 @@
 <body>
 <h1>Test</h1>
 <br>
-
+<!--test-->
 <?php
 $servername = "mysql:dbhost=localhost;dbname=webprojekt";
 $username = "root";

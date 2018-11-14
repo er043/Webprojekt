@@ -12,7 +12,8 @@
 
 <?php
 
-echo "<h1>Test</h1>
+echo "<h1>Registriere dich jetzt</h1>
+
 <form method='post' action='registrierung_do.php'>
 <input  type='Text'  placeholder='Vorname' name='vorname'>
 <br><br>
@@ -25,6 +26,8 @@ echo "<h1>Test</h1>
 <input  type='Text'  placeholder='Passwort' name='passwort'>
 <br><br>
 <input type='submit' value='Registrieren'> 
+
+
 </form>";
 ?>
 

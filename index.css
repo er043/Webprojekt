@@ -3,32 +3,62 @@
     padding: 0;
 }
 
+
+
 .wrapper{
     margin: 0 auto;
-    width: 1000px;
-}
-
-.test{
-    width: 400px;
+    width:317px;
+    height:475px ;
+    background-color: #fff;
+    overflow:hidden;
+    position: relative;
     float: right;
-    margin-right: 1em;
-
-
-
-
 }
 
-#test{
-
+.wrapper ul li .imgbox{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top :0px;
+    animation: ease-in;
+    /*
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;*/
 }
 
-.imageCenter {
-    text-align:center;
-
+.wrapper ul li #img1{
+    background-image: url("Bilder/Bild1.jpg");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
-.beschreibung {
-    float: left;
-
-
+.wrapper ul li #img2{
+    background-image: url("Bilder/Bild2.jpg");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.wrapper ul li #img3{
+    background-image: url("Bilder/Bild3.jpg");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+.wrapper ul li #img4{
+    background-image: url("Bilder/Bild4.jpg");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper ul li #img5{
+    background-image: url("Bilder/Bild5.jpg");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+
+
+

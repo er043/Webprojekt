@@ -22,6 +22,24 @@
 
 
 
+<div class="logobalken" >
+    
+    <div id="logobox"><img src="Bilder/Cleasylogo_Transparent.png"></div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -157,13 +175,13 @@ try {
 }
 catch(PDOException $e)
 {
-    /*echo "Connection failed: " . $e->getMessage();*/
+    echo "Connection failed: " . $e->getMessage();
 }
 
 ?>
 
 
-<!--<a href="registrierung.php">Registrierung</a>-->
+<a href="registrierung.php">Registrierung</a>
 
 
 </body>
